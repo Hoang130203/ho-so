@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quản lý hồ sơ</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="left">
+                <div class="left-top border">
+                    <div class="background-image-wrapper">
+                        <div class="background-image">
+                        </div>
+                    </div>
+                    <div class="avatar">
+                        <div class="white-space">
+                        <img class="img-avt" src="./img/avt.jpg"/>
+                        </div>
+                    </div>
+                    <div class="info-left">
+                        <p>MS: 20215381</p>
+                        <p>Họ tên: Mai Minh Hoàng</p>
+                        <p>Lớp: Khoa học máy tính 04-K66</p>
+                        <p>Email: hoang.mm215381@sis.hust.edu.vn</p>
+                        <p>Email cá nhân: k58a01.mmh@gmail.com</p>
+                    </div>
+                </div>
+                <div class="left-bottom border">
+                    <div class="nav-left">
+                        <div class="nav-item active" onclick="openTab(event, 'tab1','tabcontent','nav-item')">
+                            Trạng thái
+                        </div>
+                        <div class="nav-item nav-item-2"  onclick="openTab(event, 'tab2','tabcontent','nav-item')">
+                            Quản lý
+                        </div>
+                        <div class="none-item">
+
+                        </div>
+                    </div>
+                    <div id="tab1" class="tabcontent">
+                        <ul class="ul">
+                            <li>Trạng thái học tập: <span style="color: #009688;font-weight: 600;">Học</span></li>
+                            <li>CPA: 3.xx</li>
+                            <li>Nợ: 0 TC</li>
+                            <li>Tích lũy: 6x TC</li>
+                            <li>Mức cảnh cáo: M0</li>
+                            <li>Trình độ: 3</li>
+                        </ul>
+                    </div>
+                    <div id="tab2" class="tabcontent">
+
+                    </div>
+                </div>
+            </div>
+            <div class="right border">
+                <div class="nav-left">
+                    <div class="nav-item nav-item-right active" onclick="openTab(event, 'tab3','tab-rightcontent','nav-item-right')">
+                        Lý lịch
+                    </div>
+                    <div class="nav-item nav-item-right nav-item-2"  onclick="openTab(event, 'tab4','tab-rightcontent','nav-item-right')">
+                        Quyết định
+                    </div>
+                    <div class="nav-item nav-item-right nav-item-2"  onclick="openTab(event, 'tab5','tab-rightcontent','nav-item-right')">
+                        Khen thưởng
+                    </div>
+                    <div class="nav-item nav-item-right nav-item-2"  onclick="openTab(event, 'tab6','tab-rightcontent','nav-item-right')">
+                        Liên hệ
+                    </div>
+                    <div class="nav-item nav-item-right nav-item-2"  onclick="openTab(event, 'tab7','tab-rightcontent','nav-item-right')">
+                        Nhận xét
+                    </div>
+                    <div class="nav-item nav-item-right nav-item-2"  onclick="openTab(event, 'tab8','tab-rightcontent','nav-item-right')">
+                        Hoạt động tham gia
+                    </div>
+                    <div class="none-item">
+
+                    </div>
+                </div>
+                <div class="user-info">
+                    <div id="tab3" class="tab-rightcontent">
+                        <h3 style="font-family: sans-serif;border-bottom: 2px solid #ddd;width: 170px;">Thông tin cá nhân</h3>
+                        <div class="info-container">
+                            <div class="info-item">
+                                <p>Ngày sinh: 13/02/2003</p>
+                                <p>Số CMTND: xxxxxxxxx</p>
+                                <p>Dân tộc: Kinh</p>
+                                <p>Ngày vào Đoàn:</p>
+
+                            </div>
+                            <div class="info-item">
+                                <p>Nơi sinh: xxxxxxxx</p>
+                                <p>Nơi cấp: xxxxxxxx</p>
+                                <p>Tôn giáo: Không</p>
+                                <p>Ngày vào Đảng:</p>
+                            </div>
+                            <div class="info-item">
+                                <p>Giới tính: Nam</p>
+                                <p>Ngày cấp:</p>
+                                <p>Chi đoàn:</p>
+                                <p>Đoàn viên</p>
+                            </div>
+                        </div>
+                        <div class="info-bottom">
+                            <p>Đối tượng chính sách:</p>
+                            <p>Số thẻ bảo hiểm: xxxxxxxxxx</p>
+                            <p>Địa chỉ thường trú: xóm x</p>
+                            <p>Nơi ở hiện tại: số x ngõ xxx xxxxxxxx</p>  
+                        </div>
+                        <h3 style="font-family: sans-serif;border-bottom: 2px solid #ddd;width: 170px;">Thông tin gia đình</h3>
+                        
+                        <p style="font-weight: bold;padding-left: 15px;">Họ và tên cha: abc xyz</p>
+                        <div class="info-container">
+                            <div class="info-item">
+                                <p>Dân tộc: Kinh</p>
+                                <p>Nơi làm việc:</p>
+                                <p>Địa chỉ thường trú:</p>
+                                <p>Liên hệ: 098xxxxxxx</p>
+                            </div>
+                            <div class="info-item">
+                                <p>Năm sinh: 19xx</p>
+                                <p>Tôn giáo: Không</p>
+                            </div>
+                            <div class="info-item">
+                                <p>Quốc tịch: Kinh</p>
+                                <p>Nghề nghiệp: </p>
+                            </div>
+                        </div>
+
+                        <p style="font-weight: bold;padding-left: 15px;">Họ và tên mẹ: abc xyz</p>
+                        <div class="info-container">
+                            <div class="info-item">
+                                <p>Dân tộc: Kinh</p>
+                                <p>Nơi làm việc:</p>
+                                <p>Địa chỉ thường trú:</p>
+                                <p>Liên hệ: 09xxxxxxxx</p>
+                            </div>
+                            <div class="info-item">
+                                <p>Năm sinh: 19xx</p>
+                                <p>Tôn giáo: Không</p>
+                            </div>
+                            <div class="info-item">
+                                <p>Quốc tịch: Kinh</p>
+                                <p>Nghề nghiệp: </p>
+                            </div>
+                        </div>
+                        
+                        <p style="font-weight: bold;padding-left: 15px;">Thông tin người thân khác</p>
+                        <div class="container-last">
+                            <div class="last-item">Thuộc hộ</div>
+                            <div class="last-item">Số số</div>
+                        </div>
+                    </div>
+                    <div id="tab4" class="tab-rightcontent"></div>
+                    <div id="tab5" class="tab-rightcontent"></div>
+                    <div id="tab6" class="tab-rightcontent"></div>
+                    <div id="tab7" class="tab-rightcontent"></div>
+                    <div id="tab8" class="tab-rightcontent"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="container">
+            <div class="graph-container">
+                <h2>Biểu đồ học tập</h2>
+                <img src="./img/ht.png" style="max-width: 90%;"/>
+            </div>
+            <div class="graph-container">
+                <h2>Biểu đồ rèn luyện</h2>
+                <img src="./img/rl.png" style="max-width: 90%;"/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="javascript.js"></script>
